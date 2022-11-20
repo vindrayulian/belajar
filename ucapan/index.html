@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+   <style>
+    body{
+        background-color: #ddd;
+    }
+    .btn{
+        position: relative;
+        top: 300px;
+        background-color: transparent;
+        border: 2px solid black;
+    }
+
+    h1{
+        position: relative;
+        top: 200px;
+    }
+   </style>
+</head>
+<body>
+    <h1 class="display-1 fw-bold">Hai Tiara Cornelia Abinery Pukan</h1>
+    <div class="d-grid gap-2">
+        <button class="btn " type="button" onclick="ucapan()">Pencet disini nih...</button>
+    </div>
+    <script>
+        async function ucapan(){
+            await Swal.fire('hehe ultah ni yah')
+            await Swal.fire('Selamat Ulang Tahun Yaaaa')
+            await Swal.fire('hehe maaf belum bisa ngasih hadiah, cuma bisa kasih ini sama doa yang baik:)')
+            Swal.fire({
+                title: '16 th',
+                text: 'Semoga Panjang Umur, Sehat Selalu, dan Apa yang diinginkan cepat terkabul aamiin',
+                imageUrl: 'https://img.freepik.com/free-vector/birthday-lettering_23-2148458229.jpg?w=900&t=st=1668390084~exp=1668390684~hmac=f89ddf841489b3b124abe357681ff4a988f00dbd9be09c48e3075f3018f2f93c',
+                imageWidth: 400,
+                imageHeight: 250,
+                imageAlt: 'Custom image',
+            })
+            
+        }
+    </script>
+</body>
+</html>

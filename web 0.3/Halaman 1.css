@@ -1,0 +1,141 @@
+body{
+    background-color: #DBDBDB;
+}
+
+.container{
+    width: 1300px;
+    height: 1000px;
+    background-color: white;
+    position: relative;
+    left: 6%;
+}
+
+.header{
+    width: 100%;
+    height: 130px;
+    background-color: antiquewhite;
+}
+
+.judul h1{
+    padding: 50px;
+    position: relative;
+    left: 20px;
+}
+
+.list li{
+    list-style: none;
+    float: left;
+    padding-right: 50px;
+    position: relative;
+    bottom: 100px;
+    left: 38%;
+}
+
+.con h2{
+    position: relative;
+    bottom: 102px;
+    left: 40%;
+    font-size: 20px;
+
+}
+
+.sig button{
+    width: 90px;
+    height: 40px;
+    background-color: #F94892;
+    border: none;
+    border-radius: 15px;
+    position: relative;
+    bottom: 150px;
+    left: 87%;
+    color: white;
+    font-weight: bold
+}
+
+
+
+.main{
+    width: 100%;
+    height: 450px;
+    background-color: antiquewhite;
+}
+
+.panah1 img{
+    width: 300px;
+    height: 400px;
+    rotate: 320deg;
+    position: relative;
+    right: 39%;
+    bottom: 100px;
+}
+
+.jm1 h1{
+    position: relative;
+    bottom: 380px;
+    text-align: center;
+    font-size: 70px;
+}
+
+.jm2 h1{
+    position: relative;
+    bottom: 430px;
+    text-align: center;
+    font-size: 70px;
+}
+
+.panah2 img{
+    width: 250px;
+    height: 350px;
+    rotate: 320deg;
+    position: relative;
+    left: 72%;
+    bottom: 620px;
+}
+
+.desc p{
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    bottom: 800px;
+    opacity: 70%;
+}
+
+
+.container2 {
+    width: 500px;
+    height: 70px;
+    background-color: white;
+    position: relative;
+    bottom: 70px;
+    left: 32%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    z-index: 9999;
+}
+
+.c1 h1{
+    padding: 22px;
+    font-size: 20px;
+    opacity: 60%;
+}
+/*  */
+
+.c2 button{
+    width: 90px;
+    height: 50px;
+    position: relative;
+    bottom: 70px;
+    left: 80%;
+    background-color: #F94892;
+    border: none;
+    color: white;
+    font-weight: bold;
+    z-index: 9999;
+}
+
+.gambar img{
+    position: relative;
+    bottom: 100px;
+    width: 100%;
+    height: 700px;
+    z-index: 1;
+}

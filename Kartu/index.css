@@ -1,0 +1,127 @@
+body {
+    margin-bottom: 500px;
+    margin-left: 50px;
+    background-color: #ddd;
+}
+
+#box {
+    perspective: 500px;
+}
+
+#card {
+    position: relative;
+    position: absolute;
+    background:  white;
+    height: 450px; width: 700px;
+    transition: transform 2s;
+    transform-style: preserve-3d;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#card:hover{
+    transform: rotateY(180deg);
+}
+
+#front, #back, .g, .container1,
+ .container2, .identitas {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 200px; width: 600px;
+    backface-visibility: hidden;
+}
+
+#front {
+    background: white;
+}
+
+#back {
+    transform: rotateY(180deg);
+}
+
+#front p{
+    position: relative;
+    bottom: 55px;
+    text-align: center;
+    left: 8%;
+    z-index: 9999;
+}
+
+#front img{
+    position: absolute;
+    bottom: 50px;
+    right: 470px;
+    z-index: 9999;
+}
+
+.g img{
+    position: relative;
+    bottom: 1px;
+    left: 580px;
+    z-index: 9999;
+}
+
+#front h3{
+    position: relative;
+    bottom: 15px;
+    text-align: center;
+    left: 8%;
+    z-index: 9999;
+}
+
+#front h1{
+    position: relative;
+    bottom: 35px;
+    text-align: center;
+    left: 8%;
+    z-index: 9999;
+}
+
+
+#back h2{
+    position: relative;
+    text-align: center;
+    bottom: 10px;
+    z-index: 9999;
+}
+
+.identitas hr{
+    position: relative;
+    top: 90px;
+    width: 699.1px;
+    z-index: 9999;
+}
+
+.identitas h2{
+    position: relative;
+    text-align: center;
+    top: 83px;
+    left: 8%;
+}
+
+.identitas img{
+    position: relative;
+    top: 80px;
+}
+
+.container1 {
+    background-color: black;
+    position: relative;
+    width: 700px;
+    height: 3px;
+    top: 105px;
+    z-index: 9999;
+}
+
+.container2 {
+    position: absolute;
+    bottom: 73%;
+    width: 700px;
+    height: 109px;
+    background-color: aquamarine;
+    border-radius: 10px 10px 0 0;
+}
+
+
+
+
